@@ -4,20 +4,32 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    img.resize {
+        width: 50%; /* you can use % */
+        height: auto;
+    }
 
+    .your-img {
+        height: auto;
+        width: auto;
+        max-width: 700px;
+        max-height: 700px;
+    }
+</style>
 
 
 <div class="row">
     <div class="col-md-4">
-        <img class="img-circle" style="padding-bottom:10px;" width="360" src="~/Images/mags1.jpg" />
+        <img class="img-responsive img-circle" width="300" height="300"  src="~/Images/mags1.jpg" />
     </div>
 
     <div class="col-md-8">
         <div class="well-lg" style="background-color: aliceblue">
-            Magdalena La Rocca is the founder and director of The Language Factory. She was born in  Buenos Aires, Argentina and is an accredited native Spanish teacher. She did four years of Teacher’s training college (TESOL) and worked as a TESOL teacher at primary and private language schools in Buenos Aires.
+            Magdalena La Rocca is the founder and director of The Language Factory. She was born in  Buenos Aires, Argentina and is an accredited native Spanish teacher. She did four years of Teacher’s training college (TESOL) and worked as a TESOL teacher at primary and private language schools in Buenos Aires
         </div>
         <div class="well-lg">
-            She set up a Spanish playgroup in Sydney’s Northern Beaches in 2012, so that her twin daughters and other local children with a Spanish speaking background could learn and practise the language in a community and fun environment.
+            She set up a Spanish playgroup in Sydney’s Northern Beaches in 2012, so that her twin daughters and other local children with a Spanish speaking background could learn and practise the language in a community and fun environment
         </div>
         <div class="well-lg" style="background-color: aliceblue">
             Magdalena completed an accredited development course for teachers of Spanish as a foreign language at Cervantes Institute (Sydney) in September 2016 and she’s member of the NSW Spanish Teachers Association
@@ -26,8 +38,6 @@
             Magdalena has a team of qualified and native Spanish teachers
         </div>
     </div>
-
-
 
 </div>
 

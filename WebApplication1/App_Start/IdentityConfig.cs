@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using WebApplication1.Models;
+using RailinBikeRacks.WEB.Models;
 
-namespace WebApplication1
+namespace RailinBikeRacks.WEB
 {
     public class EmailService : IIdentityMessageService
     {

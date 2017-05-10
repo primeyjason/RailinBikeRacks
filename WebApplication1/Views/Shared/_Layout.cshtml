@@ -18,6 +18,12 @@
 
     </script>
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+
+
+
 </head>
 <body style="background: url(../../Images/background.jpg); border-bottom-left-radius:50px; background-repeat: repeat; opacity:0.1;fill-opacity:0.1;  background-size: auto; " class="animated  fadeIn round-bottom-borders"><!-- big left picture -->
     <div class="row">
@@ -28,8 +34,8 @@
 
             </div>
         </div>
-        
-            <div class="navbar navbar-inverse navbar-fixed-top" style="background: linear-gradient(to bottom , #ffffff, #3a91bd); border-bottom-left-radius:20px; border-bottom-right-radius:20px" ;>
+        <!-- #3a91bd -->
+            <div class="navbar navbar-inverse navbar-fixed-top" style="background: linear-gradient(to bottom , #ffffff, rgba(58, 177, 189, 0.92)); border-bottom-left-radius:20px; border-bottom-right-radius:20px" ;>
         <div style="float:left;padding-left:20px">
             <img src="~/Images/Logo tricolor.png" height="64" width="50" style="float:left" />
         </div>
@@ -44,14 +50,14 @@
                         <text class="smalldevice" style="padding-top:20px;padding-left:10px;">The Language Factory</text>
                     </div>
                     <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav" style="color:aqua">
-                            <li class="blackheader">@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("Learning a Language", "LearningALanguage", "Home")</li>
-                            <li>@Html.ActionLink("Our Program", "OurProgram", "Home")</li>
-                            <li>@Html.ActionLink("Benefits", "Benefits", "Home")</li>
-                            <li>@Html.ActionLink("Resources", "Resources", "Home")</li>
-                            <li>@Html.ActionLink("About Us", "AboutUs", "Home")</li>
-                            <li>@Html.ActionLink("Contact Us", "ContactUs", "Home")</li>
+                        <ul class="nav navbar-nav" style="color:unset">
+                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { @style = "color:#1387ea;font-size:30px;" })</li>
+                            <li>@Html.ActionLink("Learning a Language", "LearningALanguage", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
+                            <li>@Html.ActionLink("Our Program", "OurProgram", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
+                            <li>@Html.ActionLink("Benefits", "Benefits", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
+                            <li>@Html.ActionLink("Resources", "Resources", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
+                            <li>@Html.ActionLink("About Us", "AboutUs", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
+                            <li>@Html.ActionLink("Contact Us", "ContactUs", "Home", null, new { @style = "color:#1387ea;font-size:24px;" })</li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +65,7 @@
         
         
         <div class="col-md-8" > <!-- body-->
-            <div class="container body-content" style="padding-top: 75px; padding-bottom:75px; opacity:0.82;fill-opacity:0.1; background: linear-gradient(to top, rgba(58, 145, 189, 0.38), #ffffff)">
+            <div class="container body-content" style="padding-top: 75px; padding-bottom:75px; opacity:0.90;fill-opacity:0.1; background: linear-gradient(to top, rgba(58, 145, 189, 0.38), #ffffff); border-radius:20px;">
 
                 @RenderBody()
             </div>

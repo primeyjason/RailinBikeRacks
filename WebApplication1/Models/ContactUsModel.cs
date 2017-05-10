@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApplication1.Models
+namespace RailinBikeRacks.WEB.Models
 {
     public class ContactUsModel
     {

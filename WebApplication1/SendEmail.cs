@@ -10,7 +10,7 @@ using System.Net.Mail;
 using System.Configuration;
 
 
-namespace WebApplication1
+namespace RailinBikeRacks.WEB
 {
     public static class EmailProvider
     {

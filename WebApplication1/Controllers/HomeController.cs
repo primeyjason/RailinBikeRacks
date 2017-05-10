@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using WebApplication1.Models;
+using RailinBikeRacks.WEB.Models;
 
-namespace WebApplication1.Controllers
+namespace RailinBikeRacks.WEB.Controllers
 {
     public class HomeController : Controller
     {
